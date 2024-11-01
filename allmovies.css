@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: url('https://media.istockphoto.com/id/1526986072/photo/airplane-flying-over-tropical-sea-at-sunset.jpg?s=612x612&w=0&k=20&c=Ccvg3BqlqsWTT0Mt0CvHlbwCuRjPAIWaCLMKSl3PCks=') no-repeat center center/cover;
+    height: 150px;
+    position: relative;
+}
+
+.header-content {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    font-size: 0.9em;
+}
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumb span {
+    color: #ddd;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Filter and Alphabet Section */
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.alphabet a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.alphabet a:hover {
+    text-decoration: underline;
+}
+
+.year-filter {
+    font-size: 1em;
+}
+
+.year-filter label {
+    margin-right: 5px;
+}
+
+/* Movie Grid using Flexbox */
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: calc(25% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.movie-info h3 {
+    margin: 5px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .movie-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .movie-card {
+        width: 100%;
+    }
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+footer {
+    background-color: #be0404;
+    background-image: url(https://pbs.twimg.com/media/DBfqPFWXsAAyMvl?format=jpg&name=large);
+    color: #bbb;
+    mix-blend-mode: multiply;
+    padding: 40px 20px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.newsletter,
+.movie-category,
+.movie-everywhere {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.newsletter h2,
+.movie-category h2,
+.movie-everywhere h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.newsletter p {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 80%;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #444;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.movie-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-category li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.movie-everywhere .download-buttons button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.app-store { background-color: #007bff00; }
+.google-play { background-color: #5bc0de00; }
+.windows-store { background-color: #5cb85c00; }
+.amazon-market { background-color: #d9544f00; }
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: #bebaba;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}

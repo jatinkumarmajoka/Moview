@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Movies Header</title>
+    <link rel="stylesheet" href="allmovies.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>Featured Movies</h1>
+            <nav class="breadcrumb">
+                <a href="http://127.0.0.1:3000/home.html">Home</a> / 
+                <a href="http://127.0.0.1:3000/allmovies.html">Movies</a>
+            </nav>
+        </div>
+    </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Filtering and Alphabet Navigation -->
+        <div class="filter">
+            <div class="alphabet">
+                <a href="#">ALL</a>
+                <a href="#">A</a>
+                <a href="#">B</a>
+                <a href="#">C</a>
+                <a href="#">D</a>
+                <a href="#">E</a>
+                <a href="#">F</a>
+                <!-- Add more letters as needed -->
+                <a href="#">Z</a>
+            </div>
+            <div class="year-filter">
+                <label for="year">Year:</label>
+                <select id="year">
+                    <option value="ALL">ALL</option>
+                    <!-- Add more years as options here -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Movie Grid Section using Flexbox -->
+        <section class="movie-grid">
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/2015/12/31/slider001.jpg" alt="Brave">
+                <div class="movie-info">
+                    <p>⭐ 8/10</p>
+                    <h3>Brave</h3>
+                    <p>Action, Drama, Adventure</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/demo/movie-details/profile/profile08.jpg" alt="Joy">
+                <div class="movie-info">
+                    <p>⭐ 8/10</p>
+                    <h3>X-men</h3>
+                    <p>Action, Drama, Romantic</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/2015/12/31/slider002.jpg" alt="Creed">
+                <div class="movie-info">
+                    <p>⭐ 9/10</p>
+                    <h3>Gulab-Gang</h3>
+                    <p>Drama</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/demo/movie-details/profile/profile04.jpg" alt="Anti Man">
+                <div class="movie-info">
+                    <p>⭐ 10/10</p>
+                    <h3>Salome</h3>
+                    <p>Action, Drama, Romantic</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/2016/01/01/tab001.jpg" alt="Vacations">
+                <div class="movie-info">
+                    <p>⭐ 3/10</p>
+                    <h3>Epic 3d</h3>
+                    <p>Comedy, Romantic</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/2015/12/31/slider003.jpg" alt="No Escape">
+                <div class="movie-info">
+                    <p>⭐ 5/10</p>
+                    <h3>Green Lantren</h3>
+                    <p>Action, Drama</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/demo/movie-details/profile/profile02.jpg" alt="Fast & Furious 7">
+                <div class="movie-info">
+                    <p>⭐ 9/10</p>
+                    <h3>Rescue</h3>
+                    <p>Action</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="https://demo.joomshaper.com/2016/moview/images/demo/movie-details/profile/profile05.jpg" alt="Assassin">
+                <div class="movie-info">
+                    <p>⭐ 4/10</p>
+                    <h3>Assassin</h3>
+                    <p>Action</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <a href="#">&#60;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">&#62;</a>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p>Subscribe now to get 100 exclusive photos & two newsletters per month</p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="E-mail">
+                    <button type="submit">➔</button>
+                </form>
+            </div>
+            <div class="movie-category">
+                <h2>Movies Category</h2>
+                <ul>
+                    <li>Action</li>
+                    <li>Adventure</li>
+                    <li>Animation</li>
+                    <li>Biography</li>
+                    <li>Comedy</li>
+                    <li>Crime</li>
+                    <li>Documentary</li>
+                    <li>Drama</li>
+                    <li>Family</li>
+                    <li>Fantasy</li>
+                </ul>
+            </div>
+            <div class="movie-everywhere">
+                <h2>Moview Everywhere</h2>
+                <div class="download-buttons">
+                    <button class="app-store"><img src="https://demo.joomshaper.com/2016/moview/images/demo/bottom4-add1.png" alt="app store"></button>
+                    <button class="google-play"><img src="https://demo.joomshaper.com/2016/moview/images/demo/bottom4-add2.png" alt="playstore"></button>
+                    <button class="windows-store"><img src="https://demo.joomshaper.com/2016/moview/images/demo/bottom4-add3.png" alt="windows"></button>
+                    <button class="amazon-market"><img src="https://demo.joomshaper.com/2016/moview/images/demo/bottom4-add4.png" alt="amazon"></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>About | Movies | Celebrities | Release Calendar | News | Contact</p>
+            <p>Copyright 2016 © Moview. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
